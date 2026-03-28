@@ -1,0 +1,35 @@
+/* flask_app/static/css/style.css */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: #f0f4f8; color: #1e293b; }
+.navbar { background: #0D1B2A; padding: 1rem 2rem;
+          display: flex; justify-content: space-between; align-items: center; }
+.nav-brand { color: #fff; font-size: 1.3rem; font-weight: 700; }
+.heart { color: #F4A261; }
+.nav-links a { color: #93c5fd; margin-left: 1.5rem; text-decoration: none; }
+.hero { background: linear-gradient(135deg, #0D1B2A 0%, #1E6FA5 100%);
+        padding: 5rem 2rem; text-align: center; }
+.hero h1 { color: #fff; font-size: 2.2rem; margin-bottom: 1rem; }
+.hero p  { color: #93c5fd; font-size: 1.1rem; margin-bottom: 2rem; }
+.btn-primary { background: #F4A261; color: #fff; padding: 0.8rem 2rem;
+               border-radius: 50px; text-decoration: none; font-weight: 600; }
+.form-section { padding: 3rem 2rem; }
+.container { max-width: 900px; margin: 0 auto; }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: 2rem; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+             gap: 1.2rem; }
+.form-group label { display: block; font-weight: 600; margin-bottom: 0.4rem; }
+.form-group input, .form-group select {
+    width: 100%; padding: 0.7rem 1rem; border: 2px solid #e2e8f0;
+    border-radius: 8px; font-size: 0.95rem; }
+.btn-predict { background: #0D1B2A; color: #fff; border: none;
+               padding: 1rem 3rem; border-radius: 50px; font-size: 1rem;
+               font-weight: 700; cursor: pointer; }
+.btn-predict:hover { background: #1E6FA5; }
+.result-card { background: #fff; border-radius: 16px; padding: 2rem;
+               box-shadow: 0 4px 24px rgba(0,0,0,0.1); margin-top: 2rem; }
+.result-card.hidden { display: none; }
+.result-normal   { color: #10B981; }
+.result-elevated { color: #F59E0B; }
+.result-high     { color: #EF4444; }
+.progress-bar-wrap { background: #e2e8f0; border-radius: 8px; height: 12px; margin: 0.4rem 0 1rem; }
+.progress-bar { height: 100%; border-radius: 8px; background: #1E6FA5; }
